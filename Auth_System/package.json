@@ -1,0 +1,32 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/rnml6/AIS-Integrated-System#readme",
+  "bugs": {
+    "url": "https://github.com/rnml6/AIS-Integrated-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnml6/AIS-Integrated-System.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.2",
+    "nodemon": "^3.1.14",
+    "validator": "^13.15.35"
+  }
+}
